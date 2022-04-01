@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 app.use(express.json())
 app.get("/", (req, res) => { 
-    res.send("hello welcome server src")
+    res.send("hello welcome server src in")
 })
 app.get("/greet", (req, res) => { 
     res.send("good morning guys server")
