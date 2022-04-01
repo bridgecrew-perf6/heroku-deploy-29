@@ -10,15 +10,3 @@ app.get("/greet", (req, res) => {
 module.exports=app
 
 
-var flag=true
-for (j = 0; j < n; j++) { 
-    if (bag[j] != bag[n - 1 - j]) { 
-        flag = false
-        break
-    }
-}
-if (flag == true) {
-    yes
-} else { 
-    no
-}
